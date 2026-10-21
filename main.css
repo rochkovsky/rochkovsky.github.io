@@ -73,8 +73,13 @@ em, .italic-title {
 
 .site-description {
     color: var(--secondary);
-    font-size: 1.1rem;
-    font-style: italic;
+    font-size: 1.08rem;
+    margin-bottom: 0.5rem;
+}
+
+.glyph {
+    font-style: normal;
+    font-family: var(--font-title);
 }
 
 .section-label {
