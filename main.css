@@ -188,6 +188,23 @@ footer p {
     color: var(--accent);
 }
 
+.contact {
+    font-family: var(--font-tab);
+    font-size: 0.8rem;
+    color: var(--secondary);
+    font-style: normal;
+    letter-spacing: 0.02em;
+    margin-top: 0.75rem;
+}
+
+.contact a, .contact a:visited {
+    color: var(--secondary);
+}
+
+.contact a:hover {
+    color: var(--accent);
+}
+
 @media (max-width: 768px) {
     body { font-size: 18px; }
     .container { padding: 0 1.25rem; }
